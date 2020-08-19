@@ -1,0 +1,22 @@
+/* Esto es una prueba para saber si está ligado el CSS a nuestro index */
+/*
+* {
+  background: red;
+} */
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: yellow;
+}
+
+.h2-rojo {
+  color: red;
+}
+
+.imagen-chica {
+  width: 200px;
+  height: auto;
+}
