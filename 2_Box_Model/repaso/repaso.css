@@ -1,0 +1,15 @@
+* {
+  background: purple;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.imagen-chica {
+  width: 200px;
+}
+
+.imagen-grande {
+  width: 400px;
+}
