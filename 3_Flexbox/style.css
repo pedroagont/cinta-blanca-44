@@ -1,0 +1,30 @@
+.padre {
+  border: 5px solid red;
+  height: 200px;
+  display: flex;
+
+  /* MODIFICAR POSICIÓN HORIZONTAL EN EJE X */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+
+  /* MODIFICAR POSICIÓN VERTICAL EN EJE Y */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+  /* align-items: stretch; */
+  align-items: center;
+
+  /* MODIFICAR POSICIÓN FILA-COLUMNA Y EN REVERSA */
+  /* flex-direction: column; */
+  flex-direction: column-reverse;
+}
+
+.hijo {
+  border: 3px solid blue;
+  height: 25px;
+  width: 30px;
+  display: flex;
+}
