@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.padre {
+  border: solid blue 6px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hijo {
+  border: solid black 4px;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.madre {
+  border: solid red 6px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hija {
+  border: solid black 4px;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nieto {
+  border: solid rgb(231, 13, 213) 2px;
+  width: 20%;
+  height: 20%;
+}
