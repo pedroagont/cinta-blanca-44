@@ -1,0 +1,53 @@
+.navbar {
+  text-align: right;
+  margin: 15px;
+}
+
+.navbar a {
+  padding: 15px;
+}
+
+.navbar img {
+  vertical-align: middle;
+}
+
+.busqueda {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.logo {
+  width: 30%;
+  height: 50%;
+}
+
+.busqueda input {
+  width: 50%;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.nav-footer {
+  margin-top: 250px;
+}
+
+.nav-pais {
+  text-align: left;
+}
+
+.nav-izquierda {
+  float: left;
+}
+
+.nav-derecha {
+  float: right;
+}
+
+.nav-footer a {
+  padding: 15px;
+  text-decoration: none;
+}
+
+.nav-footer a:hover {
+  text-decoration: underline;
+}
