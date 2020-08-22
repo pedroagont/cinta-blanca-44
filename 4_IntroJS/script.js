@@ -56,7 +56,7 @@ console.log(nombre);
 
 
 
-// RETO VARIABLES
+// RETO 1: VARIABLES
 //
 // Guarda en variables el nombre de las siguientes mascotas:
 //
@@ -66,3 +66,37 @@ console.log(nombre);
 //
 // Muestra en consola, accediendo a las variables, un mensaje como el siguiente:
 // “Mis mascotas son Pedrito, Rufo y Chancla. Les quiero mucho”
+
+var mascota1 = 'Pedrito';
+var mascota2 = 'Rufo';
+var mascota3 = 'Chancla';
+
+console.log('Mis mascotas son ' + mascota1 + ', ' + mascota2 + ' y ' + mascota3 + '. Les quiero mucho.');
+alert('Mis mascotas son ' + mascota1 + ', ' + mascota2 + ' y ' + mascota3 + '. Les quiero mucho.');
+
+
+// RETO 2: INPUT OUTPU
+//
+// Pedir mediante prompts el nombre de dos mascotas y mostrar en consola un mensaje como el siguiente:
+//
+// “Quiero mucho a mis mascotas mascota1 y mascota2”
+//
+// NOTA: mascota1 y mascota2 corresponden a los nombres introducidos mediante prompts
+//
+
+var mascota1 = prompt('Ingresa el nombre de una de tus mascotas');
+var mascota2 = prompt('Ingresa el nombre de otra de tus mascotas');
+
+console.log('Quiero mucho a mis mascotas ' + mascota1 + ' y ' + mascota2);
+alert('Quiero mucho a mis mascotas ' + mascota1 + ' y ' + mascota2);
+
+
+// RETO 3: CONVERSIÓN DE DATOS
+//
+// Guarda la cadena de texto “100” en una variable
+// Muestra el contenido de esta variable en consola
+// Muestra el TIPO DE DATO de esta variable en consola
+// Transforma la variable de string a number
+// Muestra nuevamente el contenido de esta variable en consola
+//
+// ¿Qué diferencias notas al mostrar en consola la variable antes y después de transformarla? ¿Qué es entonces un tipo de dato?
