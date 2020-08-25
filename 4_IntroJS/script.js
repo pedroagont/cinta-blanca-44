@@ -94,9 +94,22 @@ alert('Quiero mucho a mis mascotas ' + mascota1 + ' y ' + mascota2);
 // RETO 3: CONVERSIÓN DE DATOS
 //
 // Guarda la cadena de texto “100” en una variable
+var texto = '100';
+
 // Muestra el contenido de esta variable en consola
+console.log(texto);
+
 // Muestra el TIPO DE DATO de esta variable en consola
+console.log(typeof texto);
+
 // Transforma la variable de string a number
+var num = parseInt(texto);
+
 // Muestra nuevamente el contenido de esta variable en consola
-//
-// ¿Qué diferencias notas al mostrar en consola la variable antes y después de transformarla? ¿Qué es entonces un tipo de dato?
+console.log(num);
+
+// ¿Qué diferencias notas al mostrar en consola la variable antes y después de transformarla?
+// El color
+
+//¿Qué es entonces un tipo de dato?
+// Es lo que nos permite diferenciar entre diferentes tipos de variables para manejarlos adecuadamente
