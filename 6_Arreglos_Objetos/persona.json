@@ -1,0 +1,14 @@
+{
+  "nombre": "Pedro",
+  "ciudad": "Cancún",
+  "edad": 22,
+  "musica": {
+    "reggeaton": {
+      "jbalvin": ["Rojo", "Blanco", "Negro"],
+      "badbunny": ["Caro", "La Santa"]
+    },
+    "cumbia": "Los Ángeles Azules",
+    "rock": "AC/DC"
+  },
+  "peliculas": ["Terror", "Documental", "Comedia"]
+}
