@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reto Pizza 🍕</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <h1 class="text-center my-5">Reto Pizza! 🍕</h1>
+
+  <!-- CONTENEDOR PARA INPUTS -->
+  <div class="container my-5">
+
+    <!-- INPUTS COPIADOS Y PEGADOS DE BOOTSTRAP: https://getbootstrap.com/docs/4.5/components/input-group/#basic-example -->
+    <!-- RECORDAR PONER ID A TODOS LOS ELEMNTOS QUE QUERAMOS USAR DESDE EL JS -->
+
+    <!-- INPUT NOMBRE -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Nombre</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre">
+    </div>
+
+    <!-- INPUT DIRECCIÓN -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Dirección</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Dirección" aria-label="Dirección" id="direccion">
+    </div>
+
+    <!-- INPUT TELÉFONO -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Teléfono</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Teléfono" aria-label="Teléfono" id="telefono">
+    </div>
+
+    <!-- INPUT PIÑA -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">¿Con Piña?</span>
+      </div>
+      <input type="text" class="form-control" placeholder="si o no" aria-label="¿Con piña?" id="pinia">
+    </div>
+
+    <!-- BOTÓN PARA ORDENAR -->
+    <button class="btn btn-primary" id="ordenar">Ordenar</button>
+
+  </div>
+
+  <!-- CONTENEDOR PARA CARD -->
+  <div class="container my-5">
+
+    <!-- CARD COPIADA Y PEGADA DE BOOTSTRAP: https://getbootstrap.com/docs/4.5/components/card/#example -->
+    <!-- Agregamos la clase d-none para que no se muestre la tarjeta al iniciar la página -->
+    <div id="card" class="card d-none" style="width: 18rem;">
+      <img src="https://tvpacifico.mx/recetas/intranet/images/recipes/330-349.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title" id="respuestaNombre">Nombre</h5>
+        <p class="card-text" id="respuestaDireccion">Dirección</p>
+        <p class="card-text" id="respuestaTelefono">Telefono</p>
+        <p class="card-text" id="respuestaPinia">Con piña o sin piña</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <script src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
